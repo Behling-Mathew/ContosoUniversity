@@ -1,0 +1,213 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("../campus.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Courgette', cursive;
+}
+
+header {
+    background-color: #f4eade;
+}
+
+nav.nav-color a {
+    color: white;
+}
+
+form {
+    background-color: #f4eade;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 515px;
+}
+
+    form input {
+        width: 140px;
+    }
+
+h2 {
+    color: white;
+    margin-bottom: 35px;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+
+footer.footer-color div a {
+    color: #2988bc;
+}
+
+table {
+    background-color: #f4eade;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #2988bc;
+    color: white;
+}
+
+table th a {
+    color: #ffd83d;
+}
+
+    table th a:hover {
+        color: greenyellow;
+    }
+
+table.about {
+    width: 900px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+    table.about td, table.about th {
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    table.about td {
+        border-radius: 10px;
+    }
+
+table.create {
+    background-color: transparent;
+}
+
+    table.create td {
+        padding: 10px;
+    }
+
+input.btn-default {
+    background-color: white;
+    padding: 7px;
+}
+
+    input.btn-default:hover {
+        background-color: lightgreen;
+        color: #2f496e;
+    }
+
+a.btn.btn-default {
+    background-color: white;
+}
+
+.delete-btn {
+    color: maroon;
+}
+
+.create-new {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: darkgreen;
+}
+
+.back-btn {
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    bottom: 7px;
+}
+
+.student-form {
+    width: 360px;
+    padding-bottom: 0px;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+footer div.container {
+    color: #2988bc;
+}
+
+.details {
+    background-color: #f4eade;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.delete-page {
+    background-color: #f4eade;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-cont {
+    background-color: #2988bc;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f4eade
+}
